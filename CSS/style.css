@@ -1,86 +1,116 @@
 body {
-    background-color: #ffffff;
-    color: #212121;
-    font-size: 14px;
+  font-family: 'Roboto', 'Raleway', 'Verdana', 'Tahoma', sans-serif;
+  background: #ffffff;
+  color: #212121;
+  font-size: 14px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .logo {
-    font-size: 26px;
+  font-family: Raleway;
+  font-size: 26px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 31px;
+}
+.logo-half {
+  color: #ffffff;
+}
+
+.logo-blue {
+  color: #2196f3;
 }
 
 h2 {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 h4,
 a.main-filters-link {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+footer,
+.picture-banner {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #2f303a;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
+.contact-link-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
 .subtitle {
-    font-size: 16px;
-    color: #757575;
-}
-
-.logo-blue {
-    color: #2196f3;
-
+  font-size: 16px;
+  color: #757575;
 }
 
 .order-title {
-    text-transform: uppercase;
-    font-size: 44px;
+  text-transform: uppercase;
+  font-size: 44px;
+  text-align: center;
 }
 
 .features-uppercase {
-    text-transform: uppercase;
-    font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 a.focused {
-    color: #212121;
+  color: #212121;
 }
 
 a.contact-link,
 .features-list-text {
-    color: #757575;
+  color: #757575;
 }
 
+.contact-link-footer:hover,
+.contact-link-footer:focus,
+.logo-half:hover,
+.logo-half:focus,
 a.focused:hover,
 a.focused:focus,
 a.contact-link:hover,
 a.ontact-link:focus {
-    color: #2196f3;
+  color: #2196f3;
 }
-
 
 a.main-filters-link {
-    background-color: #f5f4fa;
-    color: #212121;
-    font-weight: 500;
+  background: #2196f3;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 30px;
 }
 
-a.small {
-    font-weight: bold;
+.focused-button {
+  background: #f5f4fa;
+  color: #212121;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
 }
 
 .focused-button:hover,
 .focused-button:focus,
 a.main-filters-link:hover,
 a.main-filters-link:focus {
-    background-color: #2196f3;
-    color: #ffffff;
+  background: #2196f3;
+  color: #ffffff;
 }
