@@ -24,8 +24,10 @@ body {
 a {
   text-decoration: none;
 }
-
-.list {
+/* сброс маркеров для всех списков */
+ul {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
 }
 
@@ -100,8 +102,6 @@ footer,
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-
-
 }
 
 /* кнопка-ссылка */
@@ -153,7 +153,6 @@ address {
 .focused {
   font-weight: 400;
   color: var(--primery-text-color);
-
 }
 
 .main-menu .focused.current,
