@@ -1,8 +1,8 @@
 /* основный свойства */
 
 :root {
-  --primery-text-color: #212121;
-  --primery-background-color: #ffffff;
+  --primary-text-color: #212121;
+  --primary-background-color: #ffffff;
   --accent-color: #2196f3;
   --btn-footer-color: #2f303a;
   --logo-color: #000000;
@@ -17,13 +17,14 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  background: var(--primery-background-color);
-  color: var(--primery-text-color);
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
 }
 
 a {
   text-decoration: none;
 }
+
 /* сброс маркеров для всех списков */
 ul {
   margin: 0px;
@@ -60,7 +61,7 @@ li .title {
   font-size: 18px;
   letter-spacing: 0.06em;
 
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 .name,
@@ -81,7 +82,7 @@ a.main-filters-link,
 footer,
 .picture-banner {
   color: var(--opposite-text-color);
-  background: var(--btn-footer-color);
+
 }
 
 .list .contact-link-footer {
@@ -135,6 +136,7 @@ footer,
 }
 
 .features-uppercase {
+  margin-bottom: 10px;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.142;
@@ -152,7 +154,7 @@ address {
 
 .focused {
   font-weight: 400;
-  color: var(--primery-text-color);
+  color: var(--primary-text-color);
 }
 
 .main-menu .focused.current,
